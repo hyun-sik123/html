@@ -19,3 +19,6 @@ let regex = new RegExp(search, 'i'); //문자열을 정규식으로 변환 /java
 var result = books.find(book => regex.test(book.title));
 or
 var result = books.filter(book => regex.test(book.title));
+
+##자바스크립트를 이용하여 테이블에 객체를 만들고 직접 추가하기
+tableadd.html : 클래스 추가, 부스트랩활용
