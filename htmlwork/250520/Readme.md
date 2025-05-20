@@ -13,5 +13,9 @@ ajax.js : XMLHttpRequest객체를 생성하고 파일의 내용을 수신하기
 
 ##연습문제
 findbook.html파일 참조
-
-
+추가적인 사항 : result=books.find(book=> book.title === search);
+정규식으로 찾기 " 
+let regex = new RegExp(search, 'i'); //문자열을 정규식으로 변환 /javascript/i
+var result = books.find(book => regex.test(book.title));
+or
+var result = books.filter(book => regex.test(book.title));
