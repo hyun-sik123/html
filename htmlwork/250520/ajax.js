@@ -48,4 +48,8 @@ xhttp.onload=function(){
     //특정조건을 이용하여 json객체를 찾기 방법
     var result=books.find(book=> book.title ==="javascript 기초");
     console.log(result);
+
+    /* 문제
+        찾기 편집창을 만들고 찾기 버튼을 누르면 찾은 책의 정보를 화면에 나타내시오.
+    */
 }
